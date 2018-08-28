@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/eclipse/Other Minecraft Plugins/1.11/[1.9]Essentials-2.x-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/Other Minecraft Plugins/1.11/EclipseLib.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse/BUKKIT API/spigot-1.12.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
