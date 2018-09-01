@@ -38,7 +38,9 @@ public class main extends JavaPlugin
   }
   public void onDisable() {
   }
-  public boolean onCommand(CommandSender sender, Command command, String Label, String[] args) { Player target = Bukkit.getPlayer(args[0]);
+  public boolean onCommand(CommandSender sender, Command command, String Label, String[] args) 
+  { 
+	Player target = Bukkit.getPlayer(args[0]);
     if (sender.isOp())
     {
       if ((command.getName().equalsIgnoreCase("주기")) && (args[0].equals("리로드")))
@@ -217,6 +219,7 @@ public class main extends JavaPlugin
     im.setDisplayName(name);
     im.setLore(lore);
     i.setItemMeta(im);
+    
     Random rnd = new Random();
     SkullMeta skull_meta;
     if (i.getType().equals(Material.SKULL))
